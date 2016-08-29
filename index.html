@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+  <title>Federico Bonisconti</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/stylesheets/font-awesome/css/font-awesome.min.css">
+  <style>
+    .background { background-image: url("assets/images/wallpaper.jpg"); }
+    .text-center { text-align: center; }
+    .title {
+      text-align: center;
+      color: #FFFFFF!important;
+    }
+    @media only screen and (max-width: 480px) {
+      .title { font-size: 3.5em;}
+      .tile {
+        padding: 35px 15px;
+        margin: 10px 0px;
+      }
+    }
+    @media only screen and (min-width: 481px) {
+      .title {
+        font-size: 4.5em;
+        padding: 50px;
+      }
+      section { padding: 30px 0px; }
+      .tile {
+        padding: 45px 15px;
+      }
+    }
+    .content-wrapper {
+      padding-top: 50px;
+    }
+    body { font-family: 'Roboto', sans-serif; }
+    nav.navbar-default { background-color: #81d8d0; }
+    .navbar-default a { color: #FFFFFF!important; }
+    .cian { background-color: #6ed3cf; }
+    .white { background-color: white; }
+    .lightgreen { background-color: #95ef93; }
+    .title-background {
+      background: url('assets/images/background.jpg') no-repeat fixed top;
+      background-size: 100%;
+    }
+    hr {
+      border: 0 none;
+      border-top: 2px solid #EEE;
+      margin: 0 5%;
+      margin-top: 0px;
+    }
+    .fa-icon {
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+    }
+    .tile {
+      background-color: #95D793;
+    }
+    .tile a {
+      color: black;
+      text-decoration: none;
+    }
+    .linkedin {
+      color: #337ab7!important;
+    }
+    .list ol {
+      font-style:italic;
+      font-size:24px;
+      color:#bfe1f1;
+    }
+    .list ol li { }
+    .list ol li p {
+      padding:8px;
+      font-style:normal;
+      font-size:13px;
+      color: black;
+      border-left: 1px solid #999;
+    }
+    .list ol li p em { display:block; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <section class="title-background">
+      <div class="container">
+        <h1 class="title">
+          Federico Bonisconti
+        </h1>
+      </div>
+    </section>
+
+    <section class="white" id="work">
+      <div class="container">
+        <h3>Projects I have been involved:</h3>
+        <div class="list">
+           <ol>
+              <li><p><em><a href="https://rubygems.org/gems/mercadopago-rb">mercadopago-rb</a></em>mercadopago-rb is a Ruby Gem developed to facilitate the interaction with Mercadopago's API (a very important payment's gateway in LA).</p></li>
+              <li><p><em><a href="https://markova.com/">MARKOVA</a></em>Markova is an important Argentine e-commerce.</p></li>
+              <li><p><em><a href="https://www.bricksave.com/">Bricksave</a></em>An international crowdfunding platform.</p></li>
+           </ol>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="white" id="about">
+      <div class="container">
+        <h3>About me:</h3>
+        <p>
+          I'm a developer based on Buenos Aires, Argentina.
+        </p>
+        <p>
+          I have been working as a Web Developer for almost two years. Using <b>Ruby on Rails</b> and <b>Javascript</b>.
+        </p>
+        <p>
+          As a developer, I used many languages, but I'm specialized with <b>Ruby</b>, <b>C</b> and <b>Scala</b>.
+        </p>
+        <p>
+          Also, I'm very interested in Relational and Non-Relational databases. Such as <b>PostgreSQL</b>, <b>MongoDB</b>, <b>Neo4J</b> and <b>Cassandra</b>.
+        </p>
+
+      </div>
+    </section>
+    <section class="lightgreen" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-2 col-sm-offset-3">
+            <div class="tile">
+              <a href="mailto:fedebonisconti26@gmail.com">
+                <i class="fa fa-5x fa-envelope-o fa-icon" aria-hidden="true"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-2">
+            <div class="tile">
+              <a class="linkedin" href="https://www.linkedin.com/in/federico-bonisconti-086734ab">
+                <i class="fa fa-5x fa-linkedin fa-icon" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2">
+            <div class="tile">
+              <a href="https://github.com/fedebonisconti/">
+                <i class="fa fa-5x fa-github fa-icon" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript">
+      $('a').click(function(){
+        $('html, body').animate({ scrollTop: $( $.attr(this, 'href') ).offset().top }, 500);
+        return false;
+      });
+    </script>
+  </div>
+</body>
