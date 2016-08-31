@@ -53,7 +53,6 @@
     body { font-family: 'Roboto', sans-serif; }
     nav.navbar-default, .cian { background-color: #81d8d0; }
     .navbar-default a { color: #FFFFFF!important; }
-    /*.cian { background-color: #6ed3cf; }*/
     .white { background-color: white; }
     .lightgreen { background-color: #95ef93; }
     .title-background {
@@ -73,6 +72,7 @@
     }
     .tile i{
       color: black;
+      transition: 0.3s ease;
     }
     .tile a {
       color: black;
@@ -93,6 +93,11 @@
     }
     .list ol li p em { display:block; }
     .circular { background: url(assets/images/me.jpg) no-repeat center; }
+    .tile i.fa-icon:hover {
+       color: white;
+       transform: translateY(-5px);
+       text-shadow: 0px 5px 4px black;
+    }
   </style>
 </head>
 <body>
